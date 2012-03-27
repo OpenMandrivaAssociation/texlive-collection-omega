@@ -1,4 +1,4 @@
-# revision 20778
+# revision 25704
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-omega
 Epoch:		1
-Version:	20120224
+Version:	20120327
 Release:	1
-Summary:	Omega
+Summary:	Omega packages
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
