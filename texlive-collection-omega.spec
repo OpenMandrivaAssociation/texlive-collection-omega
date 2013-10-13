@@ -1,4 +1,4 @@
-# revision 25844
+# revision 30388
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-omega
 Epoch:		1
-Version:	20120413
+Version:	20131013
 Release:	1
 Summary:	Omega packages
 Group:		Publishing
@@ -16,18 +16,19 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-omega.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
+Requires:	texlive-collection-latex
+Requires:	texlive-aleph
 Requires:	texlive-antomega
 Requires:	texlive-lambda
 Requires:	texlive-mxedruli
 Requires:	texlive-omega
-Requires:	texlive-aleph
 Requires:	texlive-omegaware
-Requires:	texlive-collection-basic
-Requires:	texlive-collection-latex
+Requires:	texlive-otibet
 
 %description
 Omega, a 16-bit extended TeX by John Plaice and Yannis
-Haralambous.
+Haralambous, now updated to Aleph.
 
 #-----------------------------------------------------------------------
 %files
@@ -39,20 +40,3 @@ Haralambous.
 %build
 
 %install
-
-
-%changelog
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790883
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
-+ Revision: 787863
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780505
-- Update to latest release.
-- Import texlive-collection-omega
-- Import texlive-collection-omega
-
