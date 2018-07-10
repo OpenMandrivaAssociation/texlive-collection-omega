@@ -7,7 +7,7 @@
 Name:		texlive-collection-omega
 Epoch:		1
 Version:	20131013
-Release:	9
+Release:	10
 Summary:	Omega packages
 Group:		Publishing
 URL:		http://tug.org/texlive
